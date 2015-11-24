@@ -8,5 +8,6 @@ class CreateRooms < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+    add_column :rooms, :price_per_night, :float
   end
 end
