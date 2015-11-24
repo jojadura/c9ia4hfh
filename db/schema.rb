@@ -18,9 +18,10 @@ ActiveRecord::Schema.define(version: 20150510183516) do
     t.text     "description"
     t.integer  "beds"
     t.integer  "guests"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
     t.string   "image_url"
+    t.float    "price_per_night"
   end
 
 end
